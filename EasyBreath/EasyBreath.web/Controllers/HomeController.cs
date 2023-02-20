@@ -10,12 +10,26 @@ namespace EasyBreath.web.Controllers
     {
         // GET: Home
         public ActionResult Index()
-        {
-            return View();
-        }
+         {
+             return View();
+         }
+
+        public ActionResult InnerPage()
+          {
+               return View();
+          }
+
         public ActionResult Portfolio()
-        {
-            return View();
-        }          
+         {
+             return View();
+         }          
+         public ActionResult Diete()
+         {
+              return View();
+         }
+         public ActionResult Produse()
+         {
+              return View();
+         }
     }
 }
