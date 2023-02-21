@@ -112,7 +112,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\Event.css" />
+    <Content Include="assets\css\Shop.css" />
+    <Content Include="assets\css\Sport.css" />
+    <Content Include="assets\css\Statistic.css" />
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\Vitamins.css" />
     <Content Include="assets\img\about.jpg" />
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\chili-pepper.png" />
@@ -125,6 +130,10 @@
     <Content Include="assets\img\clients\client-7.png" />
     <Content Include="assets\img\clients\client-8.png" />
     <Content Include="assets\img\counts-img.jpg" />
+    <Content Include="assets\img\Creatori\Alex.png" />
+    <Content Include="assets\img\Creatori\Catalin.png" />
+    <Content Include="assets\img\Creatori\Cristi.png" />
+    <Content Include="assets\img\Creatori\Rux.png" />
     <Content Include="assets\img\cta-bg.jpg" />
     <Content Include="assets\img\favicon.png" />
     <Content Include="assets\img\features.jpg" />
@@ -142,11 +151,18 @@
     <Content Include="assets\img\portfolio\portfolio-details-1.jpg" />
     <Content Include="assets\img\portfolio\portfolio-details-2.jpg" />
     <Content Include="assets\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="assets\img\shop\complex.jpg" />
+    <Content Include="assets\img\shop\dieta grea.jpg" />
+    <Content Include="assets\img\shop\dieta1.jpg" />
+    <Content Include="assets\img\shop\shop2.jpg" />
     <Content Include="assets\img\slide\slide-17.jpg" />
-    <Content Include="assets\img\team\team-1.jpg" />
-    <Content Include="assets\img\team\team-2.jpg" />
-    <Content Include="assets\img\team\team-3.jpg" />
-    <Content Include="assets\img\team\team-4.jpg" />
+    <Content Include="assets\img\Sport\bicycletour.jpg" />
+    <Content Include="assets\img\Sport\cycling.jpg" />
+    <Content Include="assets\img\Sport\events.png" />
+    <Content Include="assets\img\Sport\run.jpg" />
+    <Content Include="assets\img\Sport\Sport.png" />
+    <Content Include="assets\img\Sport\Yogajpg.jpg" />
+    <Content Include="assets\img\Sport\yogaRetreats.jpg" />
     <Content Include="assets\img\testimonials-bg.jpg" />
     <Content Include="assets\img\testimonials\testimonials-1.jpg" />
     <Content Include="assets\img\testimonials\testimonials-2.jpg" />
@@ -367,9 +383,13 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.6.3.slim.min.map" />
     <Content Include="Scripts\jquery-3.6.3.min.map" />
-    <Content Include="Views\Home\InnerPage.cshtml" />
     <Content Include="Views\Home\Diete.cshtml" />
-    <Content Include="Views\Home\Produse.cshtml" />
+    <Content Include="Views\Home\Shop.cshtml" />
+    <Content Include="Views\Home\Sport.cshtml" />
+    <Content Include="Views\Home\Statistic.cshtml" />
+    <Content Include="Views\Home\Event.cshtml" />
+    <Content Include="Views\Home\Nutrition.cshtml" />
+    <Content Include="Views\Home\Vitamins.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

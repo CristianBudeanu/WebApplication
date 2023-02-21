@@ -13,12 +13,6 @@ namespace EasyBreath.web.Controllers
          {
              return View();
          }
-
-        public ActionResult InnerPage()
-          {
-               return View();
-          }
-
         public ActionResult Portfolio()
          {
              return View();
@@ -27,9 +21,29 @@ namespace EasyBreath.web.Controllers
          {
               return View();
          }
-         public ActionResult Produse()
+         public ActionResult Vitamins()
          {
               return View();
          }
+         public ActionResult Shop()
+          {
+               return View(); 
+          }
+          public ActionResult Sport()
+          {
+               return View();
+          }
+          public ActionResult Statistic() 
+          {
+               return View();
+          }
+          public ActionResult Event() 
+          {
+               return View();
+          }
+          public ActionResult Nutrition()
+          {
+               return View();
+          }
     }
 }
