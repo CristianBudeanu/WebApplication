@@ -8,12 +8,23 @@
 	--clr-neon: rgb(240, 240, 240);
 	--clr-bg: rgba(1, 1, 1, 1);
 	--clr-white: rgba(255, 255, 255, 1);
+	--clr-black: black;
 }
 
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
+}
+
+#iconMoon {
+	width: 30px;
+	cursor: pointer;
+}
+
+.dark-theme {
+	--clr-white: black;
+	--clr-black: rgba(255, 255, 255, 1);
 }
 
 .button {
@@ -228,17 +239,17 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  color: #151515;
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 15px 0;
-  background-color: black;
+	color: var(--clr-white);
+	transition: all 0.5s;
+	z-index: 997;
+	padding: 15px 0;
+	background-color: var(--clr-white);
 }
 
-#header.header-scrolled,
+/*#header.header-scrolled,
 #header.header-inner-pages {
   background: rgba(0, 0, 0, 0.8);
-}
+}*/
 
 #header .logo {
   font-size: 32px;
@@ -250,9 +261,9 @@ h6 {
   text-transform: uppercase;
 }
 
-#header .logo a {
-  color: #fff;
-}
+	#header .logo a {
+		color: var(--clr-black);
+	}
 
 #header .logo a span {
   color: #ffc451;
@@ -266,14 +277,14 @@ h6 {
 #  Get Startet Button
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #fff;
-  border-radius: 4px;
-  padding: 7px 25px 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-  border: 2px solid #ffc451;
+	color: var(--clr-black);
+	border-radius: 4px;
+	padding: 7px 25px 8px 25px;
+	white-space: nowrap;
+	transition: 0.3s;
+	font-size: 14px;
+	display: inline-block;
+	border: 2px solid #ffc451;
 }
 
 .get-started-btn:hover {
@@ -310,18 +321,18 @@ h6 {
   position: relative;
 }
 
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #fff;
-  white-space: nowrap;
-  transition: 0.3s;
-}
+	.navbar a,
+	.navbar a:focus {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 10px 0 10px 30px;
+		font-size: 15px;
+		font-weight: 600;
+		color: var(--clr-black);
+		white-space: nowrap;
+		transition: 0.3s;
+	}
 
 .navbar a i,
 .navbar a:focus i {
@@ -618,63 +629,72 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
-  overflow: hidden;
+	padding: 60px 0;
+	overflow: hidden;
+	background: var(--clr-white);
 }
 
 .section-title {
   padding-bottom: 40px;
 }
 
-.section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 5px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
-}
+	.section-title h2 {
+		font-size: 14px;
+		font-weight: 500;
+		padding: 0;
+		line-height: 1px;
+		margin: 0 0 5px 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: var(--clr-black);
+		font-family: "Poppins", sans-serif;
+	}
 
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #ffde9e;
-  margin: 4px 10px;
-}
+		.section-title h2::after {
+			content: "";
+			width: 120px;
+			height: 1px;
+			display: inline-block;
+			background: #ffde9e;
+			margin: 4px 10px;
+			color: var(--clr-black);
+		}
 
-.section-title p {
-  margin: 0;
-  margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #151515;
-}
+	.section-title p {
+		margin: 0;
+		margin: 0;
+		font-size: 36px;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: "Poppins", sans-serif;
+		color: var(--clr-black);
+	}
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-weight: 700;
-  font-size: 28px;
-  font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: "Poppins", sans-serif;
+	color: var(--clr-black);
+}
+
+.about .content p {
+	color: var(--clr-black);
 }
 
 .about .content ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
+	color: var(--clr-black);
 }
 
-.about .content ul li {
-  padding: 0 0 8px 26px;
-  position: relative;
-}
+	.about .content ul li {
+		padding: 0 0 8px 26px;
+		position: relative;
+		color: var(--clr-black);
+	}
 
 .about .content ul i {
   position: absolute;
