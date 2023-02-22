@@ -516,7 +516,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/wallpaperflare.com_wallpaper.jpg") top center;
+  background: url("../img/Screenshot_1.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -1670,4 +1670,30 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Sport Page
+--------------------------------------------------------------*/
+article {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-right: 3%;
+}
+
+	article:last-of-type {
+		margin-right: 0;
+	}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 10px;
 }

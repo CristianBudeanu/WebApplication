@@ -112,12 +112,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\Event.css" />
-    <Content Include="assets\css\Shop.css" />
-    <Content Include="assets\css\Sport.css" />
-    <Content Include="assets\css\Statistic.css" />
     <Content Include="assets\css\style.css" />
-    <Content Include="assets\css\Vitamins.css" />
     <Content Include="assets\img\about.jpg" />
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\chili-pepper.png" />
@@ -164,6 +159,7 @@
     <Content Include="assets\img\Sport\Yogajpg.jpg" />
     <Content Include="assets\img\Sport\yogaRetreats.jpg" />
     <Content Include="assets\img\testimonials-bg.jpg" />
+    <Content Include="assets\img\Screenshot_1.png" />
     <Content Include="assets\img\testimonials\testimonials-1.jpg" />
     <Content Include="assets\img\testimonials\testimonials-2.jpg" />
     <Content Include="assets\img\testimonials\testimonials-3.jpg" />
