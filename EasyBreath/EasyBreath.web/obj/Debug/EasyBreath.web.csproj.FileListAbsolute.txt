@@ -195,3 +195,10 @@ W:\gti\WebApplication\EasyBreath\EasyBreath.web\obj\Debug\EasyBreath.web.csproj.
 W:\gti\WebApplication\EasyBreath\EasyBreath.web\obj\Debug\EasyBreath.web.csproj.CopyComplete
 W:\gti\WebApplication\EasyBreath\EasyBreath.web\obj\Debug\EasyBreath.web.dll
 W:\gti\WebApplication\EasyBreath\EasyBreath.web\obj\Debug\EasyBreath.web.pdb
+D:\TW\EasyBreath\EasyBreath.web\bin\Antlr3.Runtime.dll
+D:\TW\EasyBreath\EasyBreath.web\bin\Newtonsoft.Json.dll
+D:\TW\EasyBreath\EasyBreath.web\bin\System.Web.Optimization.dll
+D:\TW\EasyBreath\EasyBreath.web\bin\WebGrease.dll
+D:\TW\EasyBreath\EasyBreath.web\bin\Antlr3.Runtime.pdb
+D:\TW\EasyBreath\EasyBreath.web\bin\Newtonsoft.Json.xml
+D:\TW\EasyBreath\EasyBreath.web\bin\System.Web.Optimization.xml
